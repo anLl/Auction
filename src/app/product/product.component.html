@@ -1,6 +1,6 @@
 <div *ngFor="let myProduct of products" class="col-md-4 col-sm-4 col-lg-4">
   <div class="thumbnail">
-    <img [src]="imgUrl">
+    <img src="{{myProduct.imgUrl}}">
     <div class="caption">
       <h4 class="pull-right">{{myProduct.price}}元</h4>
       <h4><a href="#">{{myProduct.title}}</a></h4>

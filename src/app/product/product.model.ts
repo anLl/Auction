@@ -7,7 +7,8 @@ export class Product {
               public price: number,
               public rating: number,
               public desc: string,
-              public categories: Array<string>) {
+              public categories: Array<string>,
+              public imgUrl: any) {
 
   }
 }
